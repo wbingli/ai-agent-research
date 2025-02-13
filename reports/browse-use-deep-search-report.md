@@ -1,3 +1,11 @@
+---
+date: 2025-10-15
+tools: browse-use https://github.com/browser-use/web-ui
+spec: GPT-4 + 10 Iterations + 3 Steps per Iteration
+---
+
+
+
 # Exploring AI Agent Frameworks: A Guide to Building Your Own Solutions
 
 The landscape of AI agent frameworks is evolving rapidly, with cutting-edge technologies enabling developers to build highly adaptive and intelligent systems. For those looking to construct their own AI agents, understanding the merits and limitations of the various frameworks is crucial. This report delves into ten of the most prominent AI agent frameworks as of 2025, offering insights into their unique strengths and potential drawbacks.
