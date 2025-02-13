@@ -11,7 +11,11 @@ This is repo I'm looking into the AI agent technologies and current market trend
 
  - [WorldofAI@youtube](https://www.youtube.com/@intheworldofai):  This youtube channel has many AI agents and actually source code on the latest AI agents news.
 
-## Papers and Articles
+ ## Articles
+
+ - [Building effective agents](https://www.anthropic.com/research/building-effective-agents)
+
+## Papers
 
  - [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)
     - https://react-lm.github.io/
@@ -44,3 +48,10 @@ The BondAI framework demonstrates an interesting approach to AI agents by implem
 - Not update-to-date with library dependencies
 
 #### My Conclusion
+
+
+## Coding Agents
+
+
+### Cline
+Most excited coding agent so far. 

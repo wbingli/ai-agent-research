@@ -33,14 +33,8 @@ def main():
     DefaultOpenAIConnectionParams.configure_openai_connection(api_key=openai_key)
 
     task = f"""Visit {args.url} and extract the following information:
-1. The main content of the page about tools
-2. Summarize the key points about BondAI tools
-3. Extract a list of hyperlinks from this website
-
-Format your response in the following structure:
-
 ## Main Content
-[Provide a concise summary of the main content about tools]
+[Provide a concise summary of the main content]
 
 ## Links
 [List any extracted hyperlinks, or None if none were found]

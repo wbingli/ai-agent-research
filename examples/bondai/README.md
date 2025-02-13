@@ -52,10 +52,8 @@ source venv/bin/activate  # macOS/Linux
 # venv/Scripts/activate   # Windows
 
 # Run the crawler with a specific URL
-python bondai_crawler_test.py https://example.com
-
 # Example with the original AI agents repository
-python bondai_crawler_test.py https://github.com/e2b-dev/awesome-ai-agents
+python bondai_crawler_test.py https://bondai.dev/
 ```
 
 The crawler will:
