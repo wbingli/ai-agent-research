@@ -31,6 +31,10 @@ python --version  # Should output Python 3.10.x
 # 4. Install dependencies using uv
 uv pip install -r requirements.txt
 
+# Must upgrade openai as the bondai openai dependency version is broken
+# openai>=1.63.0
+uv pip install -U openai
+
 # 5. Configure OpenAI API key
 # Create a .env file in this directory
 echo "OPENAI_API_KEY=your_api_key_here" > .env
@@ -62,25 +66,23 @@ The crawler will:
 3. List all hyperlinks found on the page
 4. Present the results in a structured format
 
-## Features
-- Multi-agent architecture for separation of concerns
-- Built-in web crawling tools (WebsiteQueryTool, WebsiteExtractHyperlinksTool)
-- Event-driven tool selection with visual feedback
-- In-memory core storage for maintaining context
-- GPT-4 integration for intelligent processing
-- Command-line interface for flexible URL input
+## Example output
+```
+>python bondai_crawler_test.py https://github.com/wbingli/ai-agent-research
+Loading environment variables from: /Users/Wenbing.Li/repos/ai-agent-research/examples/bondai/.env
 
-## Troubleshooting
+Executing web crawling task for URL: https://github.com/wbingli/ai-agent-research
 
-1. Python version issues:
-   - Ensure you have Python 3.10 installed: `python --version`
-   - If using pyenv: `pyenv install 3.10` and `pyenv local 3.10`
-   - Create a new venv if you had one with a different Python version
+Using tool website_query: I need to understand the main content of the website to provide a concise summary for the user.
+Using tool website_extract_hyperlinks: I need to extract all the hyperlinks from the website to complete the task.
+Using tool response_query...
+Using tool response_query: I need to extract the hyperlinks from the large response to complete the task.
+Using tool response_query: I need to extract the hyperlinks from the large response to complete the task.
+Using tool website_extract_hyperlinks: Trying again to extract hyperlinks from the website.
+Using tool response_query: I need to extract the hyperlinks from the large response to complete the task.
+Using tool website_query: Trying to extract hyperlinks from the content of the website.
+Using tool final_answer...
+Using tool final_answer...
 
-2. If you see OpenAI API key errors:
-   - Ensure your .env file exists and contains the correct API key
-   - Make sure you're running the script from this directory
-
-3. If you see import errors:
-   - Verify your virtual environment is activated
-   - Try reinstalling dependencies: `uv pip install -r requirements.txt`
+The main content of the website is a repository for AI agent research. It includes information about AI agent frameworks, applications, papers, articles, and videos related to AI agents. It also provides an evaluation of the BondAI framework. The hyperlinks mentioned in the content are: [https://bondai.dev](https://bondai.dev) and [https://github.com/krohling/bondai](https://github.com/krohling/bondai).
+```

@@ -80,8 +80,8 @@ def main():
         ),
     )
 
-    # Set up the group conversation
-    user_proxy = UserProxy(parse_recipients=False)
+    # Set up the group conversation with non-interactive user proxy
+    user_proxy = UserProxy(parse_recipients=False, auto_exit=True)
     group_conversation = GroupConversation(
         conversation_members=[user_proxy, user_liaison_agent]
     )
