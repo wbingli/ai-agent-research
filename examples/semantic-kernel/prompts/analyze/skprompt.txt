@@ -1,0 +1,36 @@
+Analyze the following text and provide detailed insights. Focus on the specified aspects if provided, otherwise perform a general analysis.
+
+Text to analyze:
+{{$input}}
+
+Focus areas: {{$focus}}
+
+Analysis Guidelines:
+1. Key Themes and Concepts
+   - Identify main themes
+   - Extract core concepts
+   - Note recurring patterns
+
+2. Structure and Organization
+   - Analyze text structure
+   - Evaluate flow and coherence
+   - Identify organizational patterns
+
+3. Context and Implications
+   - Consider broader context
+   - Identify implications
+   - Note potential applications
+
+4. Technical Elements
+   - Evaluate terminology usage
+   - Assess technical accuracy
+   - Review methodology
+
+5. Recommendations
+   - Suggest improvements
+   - Identify areas for expansion
+   - Propose applications
+
+Please provide a comprehensive analysis following these guidelines:
+
+Analysis:

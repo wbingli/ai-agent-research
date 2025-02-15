@@ -1,0 +1,13 @@
+Summarize the following text while preserving the key information and main ideas. The summary should be clear, concise, and well-structured.
+
+Text to summarize:
+{{$input}}
+
+Guidelines:
+- Maintain the core message and important details
+- Remove redundant or unnecessary information
+- Use clear and professional language
+- Organize information logically
+- Keep the tone consistent with the original
+
+Summary:

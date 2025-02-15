@@ -11,7 +11,7 @@ This is repo I'm looking into the AI agent technologies and current market trend
 
  - [WorldofAI@youtube](https://www.youtube.com/@intheworldofai):  This youtube channel has many AI agents and actually source code on the latest AI agents news.
 
- ## Articles
+ ## Articles & Links
 
  - [Building effective agents](https://www.anthropic.com/research/building-effective-agents)
  - [Github Awesome AI Agents](https://github.com/e2b-dev/awesome-ai-agents)
@@ -25,7 +25,17 @@ This is repo I'm looking into the AI agent technologies and current market trend
 
 
 
-## AI Agent Frameworks
+## AI Agent
+
+ - [OpenAI Swarm](https://github.com/openai/swarm)
+ - [BondAI](examples/bondai/README.md)
+ - [Cline](https://cline.bot/)
+ - [Model Context Protocol](https://modelcontextprotocol.io/)
+   - MCP Servers: https://github.com/modelcontextprotocol/servers
+   - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers)
+   - [Awesome MCP Clients](https://github.com/punkpeye/awesome-mcp-clients/)
+   - [MCP Servers Category](https://glama.ai/mcp/servers)
+
 
 ### BondAI Framework Evaluation
 
@@ -54,8 +64,29 @@ The BondAI framework demonstrates an interesting approach to AI agents by implem
 #### My Conclusion
 It's a simple framework to understand the basic concept of AI agents, but it's almost dead and not suitable for any production use Coding Agents
 
+### Browse Use Evaluation
 
-## Coding Agents
+#### Overview
+Browse Use provides a simple browse agent that can be used for anything related to browsing the web.
+
+#### Evaluation
+
+**Strengths:**
+- Simple and easy to use for browsing the web
+- Support to use local Chrome instance, good for accessing and authentication for private web pages
+- Good examples and documentation
+- Great web UI and deep research mode by leveraging the browsing capabilities
+
+**Limitations:**
+- Limited to browsing the web, not integrate with other tools or agents
+- Not integrated with other agents and multiple agent collaboration mode
+- Based on langchain agent, not seems to be used by other frameworks
+
+#### My Conclusion
+Browse use is a good tool for anything related to browsing the web, but it's not well integrated with other agents and tools, and based on langchain agent, not seems to be used by other frameworks.
+
+
+### Coding Agents
 
 ### Cline
 Most excited coding agent so far. Everyone should try this one.

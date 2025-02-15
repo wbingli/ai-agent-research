@@ -1,0 +1,8 @@
+crewai>=0.1.0
+langchain>=0.1.0
+python-dotenv>=1.0.0
+openai>=1.3.0
+duckduckgo-search>=3.9.0
+wikipedia>=1.4.0
+python-dateutil>=2.8.2
+termcolor>=2.3.0
