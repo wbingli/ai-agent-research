@@ -15,6 +15,7 @@ This is repo I'm looking into the AI agent technologies and current market trend
 
  - [Building effective agents](https://www.anthropic.com/research/building-effective-agents)
  - [Github Awesome AI Agents](https://github.com/e2b-dev/awesome-ai-agents)
+ - [Best AI Agent Papers in 2024](https://juteq.ca/biggest-ai-agent-paper-releases-2024/)
 
 ## Papers
 
@@ -22,6 +23,7 @@ This is repo I'm looking into the AI agent technologies and current market trend
     - https://react-lm.github.io/
  - [AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation](https://arxiv.org/abs/2308.08155)
  - [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560)
+ - [Magentic-One: A Generalist Multi-Agent System for Solving Complex Tasks](https://www.microsoft.com/en-us/research/uploads/prod/2024/11/MagenticOne.pdf)
 
 
 
