@@ -1,0 +1,89 @@
+{
+    "name": "TaskManagementAgent",
+    "description": "An agent that helps manage tasks and projects",
+    "foundation_model": "anthropic.claude-v2",
+    "instruction": "You are a task management assistant that helps users create, update, and manage tasks and projects. You should always be helpful, clear, and precise in your responses.",
+    "api_schema": {
+        "openapi": "3.0.0",
+        "info": {
+            "title": "Task Management API",
+            "version": "1.0.0",
+            "description": "API for managing tasks and projects"
+        },
+        "paths": {
+            "/tasks": {
+                "post": {
+                    "summary": "Create a new task",
+                    "operationId": "createTask",
+                    "requestBody": {
+                        "required": true,
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/TaskRequest"
+                                }
+                            }
+                        }
+                    },
+                    "responses": {
+                        "200": {
+                            "description": "Task created successfully",
+                            "content": {
+                                "application/json": {
+                                    "schema": {
+                                        "$ref": "#/components/schemas/TaskResponse"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "components": {
+            "schemas": {
+                "TaskRequest": {
+                    "type": "object",
+                    "required": ["description"],
+                    "properties": {
+                        "description": {
+                            "type": "string",
+                            "description": "Description of the task"
+                        },
+                        "priority": {
+                            "type": "string",
+                            "enum": ["low", "medium", "high"],
+                            "default": "medium",
+                            "description": "Priority level of the task"
+                        },
+                        "deadline": {
+                            "type": "string",
+                            "format": "date",
+                            "description": "Deadline for the task"
+                        }
+                    }
+                },
+                "TaskResponse": {
+                    "type": "object",
+                    "required": ["task_id", "status"],
+                    "properties": {
+                        "task_id": {
+                            "type": "string",
+                            "description": "Unique identifier for the task"
+                        },
+                        "status": {
+                            "type": "string",
+                            "enum": ["created", "in_progress", "completed"],
+                            "description": "Current status of the task"
+                        },
+                        "created_at": {
+                            "type": "string",
+                            "format": "date-time",
+                            "description": "Timestamp when the task was created"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

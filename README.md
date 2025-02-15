@@ -94,7 +94,7 @@ https://cline.bot/
 
 #### My Experience
 - Great experience with the live file editing, looks like a real pair programming with AI. Other coding agent will just modify the code in the background, which is not as interactive as Cline.
-- I choice the model claude+Sonnet 3.5, which works well with the code. I think this model is well trained for the coding task.
+- I choice the model claude+Sonnet 3.5, which works well with the code. I think this model is well trained for the coding task and with agent mode.
 - I use OpenRouter as API router, the Anthropic API has too low API rate limit, really bad experience with it.
 - Some medium level tasks (e.g. an API with unit test and refactoring) normally takes around less than 10 minutes to complete, with some of user input.
 - The cost is kind of high, for a medium task is around $2~5. I think it's worth it since I'm not spend all of my time on coding.
