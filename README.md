@@ -7,8 +7,9 @@ This is repo I'm looking into the AI agent technologies and current market trend
 - [Gemini Deep Research Report](reports/gemini-deep-research-report.md)
 - [Browse Use Deep Search Report](reports/browse-use-deep-search-report.md)
 
-## Videos & Channels
+## Websites & Videos & Channels
 
+ - [Athina AI Hub](https://hub.athina.ai/): The Athina AI Hub is a dedicated resource for AI development teams, offering valuable insights, curated content, and actionable knowledge.
  - [WorldofAI@youtube](https://www.youtube.com/@intheworldofai):  This youtube channel has many AI agents and actually source code on the latest AI agents news.
 
  ## Articles & Links
