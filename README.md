@@ -38,6 +38,7 @@ This is repo I'm looking into the AI agent technologies and current market trend
    - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers)
    - [Awesome MCP Clients](https://github.com/punkpeye/awesome-mcp-clients/)
    - [MCP Servers Category](https://glama.ai/mcp/servers)
+   - [Smithery MCP registry](https://smithery.ai/)
 
 
 ### BondAI Framework Evaluation
