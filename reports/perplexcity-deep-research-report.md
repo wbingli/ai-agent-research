@@ -1,8 +1,7 @@
 ---
 date: 2025-02-15
 tools: https://www.perplexity.ai/ enables Deep Research
-Prompt: Research the AI agent technologies, especially on the AI agent frameworks, which allows me to build my own. List as many of them as possible using a table and give cons/pros.
-finally give me a summary.
+Prompt: Research the AI agent technologies, especially on the AI agent frameworks, which allows me to build my own. List as many of them as possible using a table and give cons/pros.finally give me a summary.
 ---
 
 
