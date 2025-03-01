@@ -4,6 +4,7 @@ This is repo I'm looking into the AI agent technologies and current market trend
 
 ## Generated Docs
 
+- [Open API Deep Research Report](reports/open-api-deep-research.md)
 - [Gemini Deep Research Report](reports/gemini-deep-research-report.md)
 - [Browse Use Deep Search Report](reports/browse-use-deep-search-report.md)
 
