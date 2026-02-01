@@ -104,4 +104,50 @@ https://cline.bot/
 - Some medium level tasks (e.g. an API with unit test and refactoring) normally takes around less than 10 minutes to complete, with some of user input.
 - The cost is kind of high, for a medium task is around $2~5. I think it's worth it since I'm not spend all of my time on coding.
 
+### Claude Code
+https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview
+
+#### My Experience
+
+__Good:__
+- Used most of time.  Really efficient and fast, good for most of the coding tasks.
+- The integration with github is great, good for pull request submit and code review.
+- Ease to use with other commands, with `-p` and allows other commands output as context.  e.g. `ls -la | claude -p "which is my largest file?"`
+- Feature rich, like customize command etc. 
+
+__Bad:__
+- The cost is high, around $0.5 per task, sometimes like $2~3
+- Cannot use other models. Only claude models
+- Cannot see the detailed input/output and process.
+- Not index and memory support (must use local files CLAUDE.md etc)
+
+### Roo Code
+https://roocode.com/
+Cline code clone, but more feature rich.
+
+### Github Copilot
+
+
+### Cursor
+//TBD
+
+### Winsurf
+//TBD
+
+### Augment Code
+https://www.augmentcode.com/
+
+AI coding agent which supports multiples major IDEs, such as VSCode, IntelliJ, NeoVim, VIM. 
+
+#### My Experience
+- Good to support IntelliJ  as I need this for my Java project.
+- Cannot choose models, not sure which model they are using.
+- Subscription based, the free community edition is 50 agents request per month. Not sure how they define the agents request.
+- Not see great performance with the coding tasks, not as good as Cline and Claude Code.
+- Less feature rich, missing lots of features compared to Cline and Claude Code.
+
+
+
+
+
 
